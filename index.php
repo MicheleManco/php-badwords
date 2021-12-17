@@ -12,6 +12,6 @@
         $count = str_word_count($ciao)
     ?>
     <p><?php echo $ciao ?></p>
-    <p><?php  echo $count + 1 ?></p>
+    <p>questa frase è composta da <?php  echo $count + 1 ;?> parole</p>
 </body>
 </html>
